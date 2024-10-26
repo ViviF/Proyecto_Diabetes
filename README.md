@@ -13,7 +13,10 @@ La pregunta que se busca responder es: ¿Cómo podemos estimar un modelo predict
 # Distribución de carpetas
 
 # .dvc
+Posee la configuración de la nube en S3 para almacenar los datos
+
+# data
 Esta carpeta contiene el puntero hacia el repositorio de S3, en donde se encuentra contenido el archivo de datos con el que estamos trabajando
 
 # Exploración_datos
-Esta carpeta se contiene el archivo .ipynb en donde se realiza el análisis exploratorio de los datos, dicho archivo no se encuentra versionado, que que es una introducción preliminar a los datos, conocerlos y verificar su comportamiento
+Esta carpeta contiene el archivo .ipynb en donde se realiza el análisis exploratorio de los datos, dicho archivo no se encuentra versionado, ya que es una introducción preliminar a los datos, conocerlos y de esta manera verificar su comportamiento
