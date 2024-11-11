@@ -13,10 +13,20 @@ La pregunta que se busca responder es: ¿Cómo podemos estimar un modelo predict
 # Distribución de carpetas
 
 # .dvc
-Posee la configuración de la nube en S3 para almacenar los datos
+Posee la configuración de la nube en S3 para almacenar los datos.
 
 # data
-Esta carpeta contiene el puntero hacia el repositorio de S3, en donde se encuentra contenido el archivo de datos con el que estamos trabajando
+Esta carpeta contiene el puntero hacia el repositorio de S3, en donde se encuentra contenido el archivo de datos con el que estamos trabajando.
 
 # Exploración_datos
-Esta carpeta contiene el archivo .ipynb en donde se realiza el análisis exploratorio de los datos, dicho archivo no se encuentra versionado, ya que es una introducción preliminar a los datos, conocerlos y de esta manera verificar su comportamiento
+Esta carpeta contiene el archivo .ipynb en donde se realiza el análisis exploratorio de los datos, dicho archivo no se encuentra versionado, ya que es una introducción preliminar a los datos, conocerlos y de esta manera verificar su comportamiento.
+
+# Modelos
+Esta carpeta contiene los archivos .ipynb en donde se ejecutaron los modelos de clasificación, la selección del modelo a utilizar (Redes neuronales) junto con la calibración del modelo seleccionado.
+
+# Preprocesamiento_Datos
+Esta carpeta contiene los archivos en donde se realizaron las diferentes técnicas de preprocesamiento y se realizó la seleccion de las características para proceder a seleccionar los modelos de clasificación.
+
+# Data
+Contiene el archivo .dvc como parte del versionamiento de la fuente de datos y la ruta hacia S3, como plataforma de almacenamiento de estos datos
+
