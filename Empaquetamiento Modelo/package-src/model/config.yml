@@ -1,0 +1,54 @@
+# Nombre del paquete
+package_name: modelo-diabetes
+
+# Archivos de datos
+train_data_file: diabetes_train.csv
+test_data_file: diabetes_test.csv
+
+# Variables
+# Objetivo
+target: Diabetes_012
+
+features:
+  - HighBP
+  - HighChol
+  - BMI
+  - HeartDiseaseorAttack
+  - GenHlth
+  - Age
+
+
+temp_features:
+
+
+# pipelines
+pipeline_name: modelo-diabetes
+pipeline_save_file: modelo-diabetes-output
+
+# fracción del conjunto de prueba
+test_size: 0.25
+
+# semilla
+split_random_state: 42
+
+# hiperparámetros del modelo
+hidden_layer_sizes:
+  - 300
+
+learning_rate_init:  0.001
+
+max_iter: 600
+
+model_random_state: 64
+
+# variables a mapear
+qual_vars:  # Cambiado de [] a una lista explícita
+  -
+#
+categorical_vars:  # Cambiado de [] a una lista explícita
+  -
+
+# mapeo de variables cualitativas
+qual_mappings:
+  0.0: 0
+  1.0: 1
