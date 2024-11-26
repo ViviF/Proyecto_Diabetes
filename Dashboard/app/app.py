@@ -88,7 +88,7 @@ app.layout = html.Div([
         labelStyle={'display': 'block', 'marginBottom': '10px'} ),
 
         # Ataque Cardíaco
-        html.Label('¿Alguna vez ha tenido un ataque cardiaco?:', style={'fontSize': 18, 'marginBottom': '10px'}),
+        html.Label('Enfermedad coronaria o ataque cardíaco :', style={'fontSize': 18, 'marginBottom': '10px'}),
         dcc.RadioItems(
         id='HeartDiseaseorAttack',  
         options=[
